@@ -22,12 +22,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20pt" translatesAutoresizingMaskIntoConstraints="NO" id="GzM-Rf-gK3">
+                                <rect key="frame" x="63" y="285" width="267" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="h6K-jC-jMc"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GzM-Rf-gK3" secondAttribute="bottom" constant="405" id="2dU-FD-iPS"/>
+                            <constraint firstItem="GzM-Rf-gK3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Iov-yI-bjg"/>
                             <constraint firstItem="tcZ-ZF-rQS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="adc-oL-far"/>
                             <constraint firstItem="tcZ-ZF-rQS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="h95-gI-Zy0"/>
+                            <constraint firstItem="GzM-Rf-gK3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="xTM-XW-U90"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,6 +46,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="20pt" width="20" height="20"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
